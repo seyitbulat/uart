@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-typedef enum { RX_IDLE, RX_TRIGGER, RX_DATA, RX_STOP } RxState;
+typedef enum { RX_IDLE, RX_DATA, RX_STOP } RxState;
 
 typedef struct {
   uint8_t RX;

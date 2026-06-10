@@ -11,12 +11,8 @@ void UartRx_Tick(UartRx* uart) {
   switch (uart->state) {
     case RX_IDLE:
       if (uart->RX != 0b1) {
-        uart->state = RX_TRIGGER;
+        uart->state = RX_DATA;
       }
-      break;
-    case RX_TRIGGER:
-      uart->counter = 0;
-      uart->state = RX_DATA;
       break;
     case RX_DATA:
       uart->shifRegister >>= 0b1;

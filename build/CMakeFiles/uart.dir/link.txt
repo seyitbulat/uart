@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/uart.dir/link.d CMakeFiles/uart.dir/src/main.cpp.o CMakeFiles/uart.dir/src/UartRx.c.o CMakeFiles/uart.dir/src/UartTx.c.o -o uart

@@ -1,0 +1,3 @@
+/workspaces/uart/build/CMakeFiles/uart.dir
+/workspaces/uart/build/CMakeFiles/edit_cache.dir
+/workspaces/uart/build/CMakeFiles/rebuild_cache.dir
